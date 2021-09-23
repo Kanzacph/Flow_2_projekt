@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        h1{
+            background-color: indianred;
+        }
+
+        #overskrift2{
+            color: rgb(72, 0, 124);
+        }
+/* class */
+        .primary-heading{
+            background-color: lightseagreen;
+            color: royalblue;
+        }
+/* id */
+        #om{
+            background-color: tomato;
+        }
+        #velkommen{
+            background-color: sandybrown;
+        }
+/* Flere selectors */
+        #om,#velkommen{
+            border: 3px solid black;
+            padding: 10 px;
+            margin-bottom: 50px;
+        }
+
+
+        #velkommen p{
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+    <div id="velkommen">
+        <h1>Velkommen</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem libero blanditiis cumque, nihil dolores voluptas, quas illo accusamus vitae qui rerum hic corporis at incidunt!</p>
+      
+    </div>
+
+    <div ID="om">
+        <h2 id="overskrift2">Om</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cupiditate ipsa deleniti pariatur hic quas iusto aspernatur corporis. Necessitatibus nobis repudiandae ipsa voluptatum optio, animi perspiciatis beatae dicta officia veritatis reprehenderit voluptates exercitationem porro a ratione laborum eius qui corporis.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio doloribus quod, molestiae commodi minima nobis dignissimos officia velit nulla, ipsa reiciendis voluptatum numquam eum id aut eos excepturi, quia vitae porro laborum. Provident placeat minima iure ullam! Harum sequi ab pariatur tempora, neque ducimus nobis minima recusandae fuga nostrum, fugit impedit aut, eveniet totam asperiores illum id. Quod adipisci laborum nulla voluptate atque. Tempore repudiandae architecto eligendi, vitae maiores earum aliquam. Alias quisquam quos assumenda amet, voluptates culpa architecto explicabo rem dolore atque sunt dolorum incidunt ratione officia libero cum doloribus et itaque rerum quam dolorem soluta quaerat perferendis ab. Excepturi sapiente quae expedita perferendis quasi esse ad quam omnis vitae voluptatibus cumque assumenda, nulla placeat fuga autem, aliquid laudantium dicta ipsam. Omnis autem quae illum doloribus quia aperiam repellendus distinctio deserunt enim exercitationem suscipit non accusantium est consequuntur maiores culpa neque quo cupiditate, laborum nisi assumenda. At fugiat ex quam natus iste! Libero commodi quibusdam ut sequi fugiat quos optio ratione beatae voluptas dignissimos veniam rerum saepe pariatur amet dolor voluptates at eaque est, ducimus maiores suscipit praesentium eos aspernatur officiis. Aliquam rem ipsum ea. Quod harum nostrum nobis illo deserunt, qui ea non ad tenetur earum distinctio aliquam! Autem quidem perferendis aperiam facilis cupiditate? Voluptates quibusdam iste molestiae laudantium expedita voluptas dolores velit, tenetur, ea error veniam ut! Suscipit exercitationem ipsam labore officia! Nam, reiciendis nisi magnam dolor fugit tempore quibusdam similique non aspernatur dolore veritatis. Eligendi vero incidunt deleniti pariatur animi, et nobis exercitationem quia, possimus amet praesentium eius soluta molestiae est iure quisquam enim laudantium nisi corrupti, optio ad? At, qui laborum similique quae, iste nesciunt vitae sit voluptates aperiam quidem ullam voluptate, ipsum hic fugit doloribus assumenda? Culpa fuga eveniet vitae reiciendis. Eius, dolore aspernatur ducimus rem beatae consequuntur tempora veritatis quos nam laboriosam dicta.</p>
+    </div>
+</div>
+
+
+    <div>
+        <!-- Kan ikke bruge æøå når man navngiver sin class -->
+        <h1 class="primary-heading">Kontakt</h1>
+        <p>Lorem <span class="primary-heading">ipsum dolor sit amet consectetur</span> adipisicing elit. Rem libero blanditiis cumque, nihil dolores voluptas, quas illo accusamus vitae qui rerum hic corporis at incidunt!</p>
+    </div>
+
+</body>
+</html>
